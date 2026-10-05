@@ -1,0 +1,37 @@
+mission:
+  mission_id: ""
+  session_id: ""
+  run_id: ""
+  institution_ref: ""
+  system_operator_ref: ""
+  runtime_ref: ""
+  workload_identity_ref: ""
+
+routing:
+  route_ref: ""
+  route_result: "ROUTED | ROUTE_UNRESOLVED | UNSET"
+
+authority:
+  authority_decision_ref: ""
+  result: "ALLOW | DENY | NEEDS_REVIEW | UNAVAILABLE | INDETERMINATE | UNSET"
+  expires_at: ""
+
+scope:
+  objective: ""
+  allowed_paths: []
+  allowed_tools: []
+  forbidden_actions:
+    - "alter canon or registry state unless explicitly authorized"
+    - "claim BUILD PASS"
+    - "claim ARK seal/custody"
+    - "deploy or publish without explicit authority"
+    - "read or expose unrelated secrets"
+  source_refs: []
+  source_hashes: []
+  acceptance_tests: []
+
+return_contract:
+  require_diff: true
+  require_test_evidence: true
+  require_unresolved_failures: true
+  require_receipt: true

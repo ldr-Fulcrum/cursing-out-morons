@@ -1,0 +1,15 @@
+---
+description: Required INOS task intake and return evidence.
+alwaysApply: true
+---
+# Task return contract
+
+For substantial work, read `INOS_TASK_INTAKE.template.yaml` or the mission-specific replacement before implementation.
+
+Return work in the shape defined by `INOS_TASK_RETURN.template.md`.
+
+Do not say "done" when:
+- acceptance tests were not executed;
+- a required authority/route remains unresolved;
+- a required artifact was not produced;
+- the result still depends on a blocked external step.

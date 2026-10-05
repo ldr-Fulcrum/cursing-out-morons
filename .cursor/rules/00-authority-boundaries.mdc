@@ -1,0 +1,20 @@
+---
+description: INOS authority and object-separation boundaries for all Cursor Agent work.
+alwaysApply: true
+---
+# Authority boundaries
+
+Cursor is an execution surface.
+
+Never collapse:
+- institution == operator/system operator
+- operator/system operator == runtime
+- runtime == workload identity
+- technical access == authority
+- authentication == authority
+- route == authority
+- receipt == approval
+- artifact existence == BUILD PASS
+- repository location == canon
+
+Before consequential writes, require explicit scope and authority evidence. Missing or ambiguous authority fails closed.

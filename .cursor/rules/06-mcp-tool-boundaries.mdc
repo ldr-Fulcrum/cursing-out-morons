@@ -1,0 +1,14 @@
+---
+description: MCP and external-tool safety boundaries.
+alwaysApply: true
+---
+# MCP/tool boundaries
+
+An MCP server grants technical capability, not institutional authority.
+
+- Use only MCP servers relevant to the mission.
+- Do not broaden scope because a tool is available.
+- Never place raw secrets in committed `.cursor/mcp.json`.
+- Prefer OAuth or environment-variable interpolation.
+- Do not use external tools to mutate canon, production, credentials, permissions, billing, or protected data unless explicitly authorized.
+- Record material external actions in the run return.

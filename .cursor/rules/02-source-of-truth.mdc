@@ -1,0 +1,12 @@
+---
+description: Source-of-truth, provenance, and canon discipline.
+alwaysApply: true
+---
+# Source of truth
+
+- Prefer repository-governed sources named by the mission packet.
+- Preserve source refs and hashes when provided.
+- Treat chat, scratch notes, generated summaries, runtime memory, and local caches as supporting context unless explicitly designated otherwise.
+- Do not promote a candidate file to canon because it appears newer.
+- When two sources conflict, report the conflict instead of silently merging.
+- Never claim ARK registration, seal, canon promotion, or supersedence without evidence.

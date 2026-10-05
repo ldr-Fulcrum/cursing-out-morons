@@ -1,0 +1,16 @@
+---
+description: Context-loading protocol that prevents repository and mission drift.
+alwaysApply: true
+---
+# Context loading
+
+Load context in this order:
+1. mission/task packet;
+2. root `AGENTS.md`;
+3. repository architecture/source-of-truth docs named by the packet;
+4. relevant local code;
+5. external docs only when the task requires them.
+
+Do not recursively ingest the whole repository unless needed.
+Do not let stale notes override a named governing source.
+When context is missing, mark the gap and ask/hold rather than inventing state.

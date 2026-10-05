@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "inos-reference-resolver": {
+      "url": "https://REPLACE_WITH_APPROVED_MCP_ENDPOINT",
+      "headers": {
+        "Authorization": "Bearer ${env:INOS_MCP_TOKEN}"
+      }
+    }
+  }
+}

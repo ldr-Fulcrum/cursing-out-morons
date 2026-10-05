@@ -1,0 +1,11 @@
+# Example only: current migration-style assignment shape.
+assignment:
+  institution_ref: "WAR"
+  system_operator_ref: "Mr_A"
+  runtime_ref: "cursor"
+  mission_id: "SYSTEM-MIGRATION-EXAMPLE"
+  session_id: ""
+  run_id: ""
+  route_ref: ""
+  authority_decision_ref: ""
+  note: "Example demonstrates separation only; it does not create an active assignment."

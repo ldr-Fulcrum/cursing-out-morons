@@ -1,0 +1,122 @@
+{
+  "package": "INOS_CURSOR_ENVIRONMENT_BUILD_KIT_2026-10-04",
+  "generated_date": "2026-10-04",
+  "status": "candidate_build_kit",
+  "files": [
+    {
+      "path": "CURSOR_START_HERE.md",
+      "sha256": "c24618700062df7f0463e3f31e44b24342952596f421e572aeb3e43b1937952f",
+      "bytes": 1498
+    },
+    {
+      "path": "README.md",
+      "sha256": "888a12f32692361d388dd62bd37b6401a7486e1dccf9a5f345874a76e9cebb21",
+      "bytes": 1250
+    },
+    {
+      "path": "REFERENCE_SOURCES.md",
+      "sha256": "a38ea46766f2b3105368ace1007f187d2cc2fa1edfa0c354a8697a2ea5352aa9",
+      "bytes": 578
+    },
+    {
+      "path": "control/MISSION_ASSIGNMENT.example.yaml",
+      "sha256": "177d8f827917204840631565f855e3ecbf9e9f9abb3b782b33cfa0ba08f70b2c",
+      "bytes": 354
+    },
+    {
+      "path": "control/RUNTIME_OBJECT_RECORD.template.yaml",
+      "sha256": "08512b6b75482a0561d96b5686474838d0bf1d51156b29e10bd5bd05dc2e6c3b",
+      "bytes": 529
+    },
+    {
+      "path": "global/CURSOR_GLOBAL_USER_RULES.md",
+      "sha256": "2044cfa3a72b5e35924339d165f19689fbc6a6f87e82ba344dc72d7e0a4e8674",
+      "bytes": 1022
+    },
+    {
+      "path": "repo-template/.cursor/mcp.json.template",
+      "sha256": "f38020927109fb304f7f7b63ab41ef76d14d8188f42018ee8cde959c4f5b4022",
+      "bytes": 206
+    },
+    {
+      "path": "repo-template/.cursor/rules/00-authority-boundaries.mdc",
+      "sha256": "5bfb83da786ce5ec8b2cd40331d7f5d48f63ee35964b22d6ea95fbc82f70e136",
+      "bytes": 591
+    },
+    {
+      "path": "repo-template/.cursor/rules/01-inos-architecture.mdc",
+      "sha256": "a785d257f61cd9d72e94706962ad4dcf40f455da33e9d6c9eebc1849988be08e",
+      "bytes": 612
+    },
+    {
+      "path": "repo-template/.cursor/rules/02-source-of-truth.mdc",
+      "sha256": "fd2b1b890ca2540a82c952a4bdb59777dcb70f6f27ead64c78b647d7a6509496",
+      "bytes": 605
+    },
+    {
+      "path": "repo-template/.cursor/rules/03-build-discipline.mdc",
+      "sha256": "20201facfc048f657ca7f697e1736c6e98c11e8672732b335d434f47e7fcb636",
+      "bytes": 500
+    },
+    {
+      "path": "repo-template/.cursor/rules/04-testing-evidence.mdc",
+      "sha256": "5cafa906acd8bd4d99bde12206f68c33457414f84bc723a746aa350800696161",
+      "bytes": 447
+    },
+    {
+      "path": "repo-template/.cursor/rules/05-git-repo-safety.mdc",
+      "sha256": "95441b86197b50df37d06fac5d4de8cadca89f4770c2491718706d4e69db3372",
+      "bytes": 539
+    },
+    {
+      "path": "repo-template/.cursor/rules/06-mcp-tool-boundaries.mdc",
+      "sha256": "2d7939af33668840999f3d6ac3b8792b04db9424a4c99b824f3a367c980091f3",
+      "bytes": 583
+    },
+    {
+      "path": "repo-template/.cursor/rules/07-task-return-contract.mdc",
+      "sha256": "82fc37b7b1f789f7f16b050e3f8b14ab3096aa407851365d235d133dded2702d",
+      "bytes": 505
+    },
+    {
+      "path": "repo-template/.cursor/rules/08-context-loading.mdc",
+      "sha256": "0712a1d2c51e0073240932a89712a35cae3ded9174f4a65074f794eafc4c98a1",
+      "bytes": 545
+    },
+    {
+      "path": "repo-template/.cursorignore.template",
+      "sha256": "4016cf0aead1b10881ddb390c9ff12be8446365f6ffe08e8ea2ba78c5555507f",
+      "bytes": 195
+    },
+    {
+      "path": "repo-template/AGENTS.md",
+      "sha256": "e6ae3880b15d728be948da384d46db75f0beb8e9bb8887bd633b216333223f62",
+      "bytes": 688
+    },
+    {
+      "path": "repo-template/CURSOR_KICKOFF_PROMPT.md",
+      "sha256": "60713f82b156d4d6b9bfa9ae796c9cdbc16ff5556c7b086f1e4141e9c3971bce",
+      "bytes": 672
+    },
+    {
+      "path": "repo-template/INOS_TASK_INTAKE.template.yaml",
+      "sha256": "1a61db715c71e863e49e712fffb43478409377896c68591522af7a377cf81e8a",
+      "bytes": 856
+    },
+    {
+      "path": "repo-template/INOS_TASK_RETURN.template.md",
+      "sha256": "d79ec93b003362823741c26e4e5c1607d30997707a975ec8ad45d409bbe3b638",
+      "bytes": 657
+    },
+    {
+      "path": "repo-template/docs/inos/INOS_EXECUTION_SURFACE_CONTRACT.md",
+      "sha256": "a31d199880a644f2a5afd65945269fe0087aca6179ce0f4fb2fbcd731e830c41",
+      "bytes": 2272
+    },
+    {
+      "path": "repo-template/scripts/bootstrap_cursor.ps1",
+      "sha256": "a8a4bd8ae7f08f7e6a24c0c1ef12da1133dd840b4906c6a38657365b064d1ec3",
+      "bytes": 715
+    }
+  ]
+}

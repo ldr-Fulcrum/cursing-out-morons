@@ -1,0 +1,12 @@
+# Candidate exclusions. Review before renaming to .cursorignore.
+.env
+.env.*
+**/secrets/**
+**/credentials/**
+**/*.key
+**/*.pem
+**/private/**
+**/node_modules/**
+**/.venv/**
+**/dist/**
+**/build/**

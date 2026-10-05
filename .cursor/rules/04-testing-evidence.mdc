@@ -1,0 +1,17 @@
+---
+description: Testing, verification, and evidence-return requirements.
+alwaysApply: true
+---
+# Testing and evidence
+
+Never claim a test, build, lint, migration, deployment, or runtime check passed unless the command actually ran and its result was observed.
+
+Return:
+- exact command;
+- exit status;
+- important output;
+- files/artifacts produced;
+- hashes when required;
+- skipped checks and why.
+
+A green local test does not equal BUILD PASS.

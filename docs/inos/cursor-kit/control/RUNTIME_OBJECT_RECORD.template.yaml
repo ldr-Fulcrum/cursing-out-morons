@@ -1,0 +1,17 @@
+runtime_surface:
+  runtime_id: ""
+  runtime_class: "coding_execution_surface"
+  provider_surface: "Cursor"
+  lifecycle_state: "candidate | active | suspended | retired"
+  institution_ref: "ASSIGNMENT_SPECIFIC"
+  system_operator_ref: "ASSIGNMENT_SPECIFIC"
+  workload_identity_ref: ""
+  capability_refs: []
+  tool_permission_refs: []
+  network_policy_ref: ""
+  credential_policy_ref: ""
+  receipt_policy_ref: ""
+  canon_authority: false
+  build_validation_authority: false
+  ark_custody_authority: false
+  routing_authority: false

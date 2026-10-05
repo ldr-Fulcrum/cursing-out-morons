@@ -1,0 +1,21 @@
+---
+description: Git and repository safety boundaries.
+alwaysApply: true
+---
+# Git safety
+
+Allowed by default:
+- inspect status/log/diff;
+- create bounded working changes;
+- create a local branch when the task requires it.
+
+Require explicit mission authority before:
+- force push;
+- history rewrite;
+- deleting shared branches/tags;
+- merging protected branches;
+- publishing releases;
+- pushing consequential migration changes;
+- changing CI/CD credentials or deployment targets.
+
+Prefer a clean diff and preserve unrelated user changes.

@@ -1,0 +1,13 @@
+---
+description: Core INOS execution topology and runtime placement.
+alwaysApply: true
+---
+# INOS architecture
+
+Use this execution chain:
+
+governed source -> compiled/runtime contract -> identity -> exact-context authority -> AIM route -> mission envelope -> runtime -> artifact/receipt -> BUILD -> durable reference.
+
+Cursor occupies only the runtime/execution-surface position.
+
+Do not re-architect institution identity, TWIN/SovereignCounterpart ontology, AIM routing policy, BUILD validation authority, or ARK custody unless the assigned mission explicitly requests architecture work under the correct lane.

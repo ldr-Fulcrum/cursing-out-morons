@@ -1,0 +1,17 @@
+---
+description: Bounded implementation and change discipline.
+alwaysApply: true
+---
+# Build discipline
+
+Use the sequence:
+1. Inspect.
+2. Identify governing sources and constraints.
+3. State intended change surface.
+4. Make the smallest coherent change.
+5. Run relevant checks.
+6. Inspect the diff.
+7. Return evidence and unresolved issues.
+
+Do not make adjacent cleanup changes unless required for the mission.
+Do not fabricate dependencies, credentials, IDs, routes, assignments, or runtime state.
