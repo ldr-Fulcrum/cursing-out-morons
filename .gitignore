@@ -1,0 +1,13 @@
+# Secrets / credentials
+.env
+.env.*
+*.key
+*.pem
+secrets/
+credentials/
+# Local/tooling
+node_modules/
+.venv/
+__pycache__/
+dist/
+build/

@@ -1,0 +1,12 @@
+# Active exclusions (from .cursorignore.template, reviewed 2026-10-05).
+.env
+.env.*
+**/secrets/**
+**/credentials/**
+**/*.key
+**/*.pem
+**/private/**
+**/node_modules/**
+**/.venv/**
+**/dist/**
+**/build/**
